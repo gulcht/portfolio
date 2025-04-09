@@ -2,11 +2,11 @@ import Image from "next/image"
 import { Github, Linkedin, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import ContactForm from "@/components/ContactForm"
-import { Hero } from "@/pages/Hero"
-import { Stack } from "@/pages/Stack"
-import { Contact } from "@/pages/Contact"
-import { Footer } from "@/pages/Footer"
-import { Project } from "@/pages/Project"
+import { Hero } from "@/components/Hero"
+import { Stack } from "@/components/Stack"
+import { Contact } from "@/components/Contact"
+import { Footer } from "@/components/Footer"
+import { Project } from "@/components/Project"
 
 export default function Home() {
   return (
